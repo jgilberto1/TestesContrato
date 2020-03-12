@@ -1,0 +1,29 @@
+{
+  "name": "concrete",
+  "version": "1.0.0",
+  "description": "testes de contrato api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec tests/contracts/cadastro.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgilberto1/TestesContrato.git"
+  },
+  "author": "João Gilberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgilberto1/TestesContrato/issues"
+  },
+  "homepage": "https://github.com/jgilberto1/TestesContrato#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "joi": "^14.3.1",
+    "joi-assert": "0.0.3",
+    "mocha": "^7.1.0",
+    "supertest": "^4.0.2"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
