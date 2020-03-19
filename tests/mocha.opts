@@ -1,5 +1,0 @@
---require tests/helpers.mjs
---require coffeescript/register
---reporter mochawesome
---slow 5000
---timeout 20000
